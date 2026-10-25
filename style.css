@@ -30,6 +30,11 @@ a{color:var(--turq)}
 .menu a:hover{color:var(--turq)}
 .menu .cta{border:1px solid var(--purple);padding:.4rem .9rem;color:#fff}
 .menu .cta:hover{background:var(--grad);border-color:transparent}
+.lang-switch{display:inline-flex;gap:.3rem}
+.lang-switch button{background:transparent;border:1px solid rgba(196,176,245,.4);color:#e9e2ff;
+  font-family:var(--mono);font-size:.66rem;font-weight:700;letter-spacing:.08em;padding:.32rem .5rem;cursor:pointer;transition:.2s}
+.lang-switch button:hover{border-color:var(--turq);color:var(--turq)}
+.lang-switch button.active{background:var(--grad);border-color:transparent;color:#fff}
 
 /* ===== HERO ===== */
 .hero{min-height:100svh;display:grid;grid-template-columns:1fr;gap:2.5rem;align-items:center;

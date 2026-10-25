@@ -16,7 +16,7 @@ html{scroll-behavior:smooth}
 body{color:var(--text);font-family:var(--mono);line-height:1.65;min-height:100vh;
   background:#07060d url('assets/fondo-ciudad.png') center top / cover fixed no-repeat}
 body::before{content:"";position:fixed;inset:0;z-index:-1;
-  background:linear-gradient(180deg,rgba(7,6,13,.62) 0%,rgba(7,6,13,.78) 45%,rgba(7,6,13,.94) 100%)}
+  background:linear-gradient(180deg,rgba(7,6,13,.42) 0%,rgba(7,6,13,.62) 45%,rgba(7,6,13,.86) 100%)}
 a{color:var(--turq)}
 
 /* ===== NAV ===== */
@@ -29,6 +29,11 @@ a{color:var(--turq)}
 .menu a:hover{color:var(--turq)}
 .menu .cta{border:1px solid var(--purple);padding:.4rem .9rem;color:#fff}
 .menu .cta:hover{background:var(--grad);border-color:transparent}
+.lang-switch{display:inline-flex;gap:.3rem}
+.lang-switch button{background:transparent;border:1px solid rgba(196,176,245,.4);color:#efeafb;
+  font-family:var(--mono);font-size:.66rem;font-weight:700;letter-spacing:.08em;padding:.32rem .5rem;cursor:pointer;transition:.2s}
+.lang-switch button:hover{border-color:var(--turq);color:var(--turq)}
+.lang-switch button.active{background:var(--grad);border-color:transparent;color:#fff}
 
 /* ===== HERO ===== */
 .hero{max-width:76rem;margin:0 auto;padding:9rem 1.4rem 3rem;text-align:left}
