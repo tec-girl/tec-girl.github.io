@@ -32,7 +32,7 @@ a{color:var(--turq)}
 .menu .cta:hover{background:var(--grad);border-color:transparent}
 
 /* ===== HERO ===== */
-.hero{min-height:100svh;display:grid;grid-template-columns:1.05fr .95fr;gap:2.5rem;align-items:center;
+.hero{min-height:100svh;display:grid;grid-template-columns:1fr;gap:2.5rem;align-items:center;
   max-width:76rem;margin:0 auto;padding:7.5rem 1.4rem 4rem}
 .kicker{color:var(--turq);font-size:.85rem;letter-spacing:.2em}
 .glitch{font-family:var(--display);font-weight:900;font-size:clamp(3.2rem,9vw,6.2rem);line-height:1.02;color:#fff;
