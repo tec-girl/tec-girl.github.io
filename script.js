@@ -22,6 +22,7 @@
       "pg.c2h": "My Personal Page",
       "pg.c2p": "My corner of the web with a cyberpunk city background: creations, collaborations, sites of interest, my Threads and a forum to comment.",
       "pg.visit": "Visit page ↗",
+      "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxury page in black, gold and silver for Ximena Lashes: lashes, professional makeup, hair and color, with services, prices and contact.",
       "pg.c3h": "Next project", "pg.c3p": "Under construction. Every new page I create will appear here.",
       "foot.line": "Hacker Web Designer — Puebla, Mexico",
       "foot.rights": "© 2026 Tec Girl. All rights reserved."
@@ -47,6 +48,7 @@
       "pg.c2h": "Ma Page Personnelle",
       "pg.c2p": "Mon coin du web avec une ville cyberpunk en fond : créations, collaborations, sites d'intérêt, mon Threads et un forum pour commenter.",
       "pg.visit": "Visiter la page ↗",
+      "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Page de luxe en noir, doré et argenté pour Ximena Lashes : cils, maquillage professionnel, coiffure et couleur, avec services, tarifs et contact.",
       "pg.c3h": "Prochain projet", "pg.c3p": "En construction. Chaque nouvelle page que je crée apparaîtra ici.",
       "foot.line": "Hacker Web Designer — Puebla, Mexique",
       "foot.rights": "© 2026 Tec Girl. Tous droits réservés."
@@ -72,6 +74,7 @@
       "pg.c2h": "Meine Persönliche Seite",
       "pg.c2p": "Meine Ecke im Web mit Cyberpunk-Stadt im Hintergrund: Kreationen, Kollaborationen, interessante Sites, mein Threads und ein Forum zum Kommentieren.",
       "pg.visit": "Seite besuchen ↗",
+      "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxus-Seite in Schwarz, Gold und Silber für Ximena Lashes: Wimpern, professionelles Make-up, Frisur und Farbe, mit Leistungen, Preisen und Kontakt.",
       "pg.c3h": "Nächstes Projekt", "pg.c3p": "Im Bau. Jede neue Seite, die ich erstelle, erscheint hier.",
       "foot.line": "Hacker Web Designer — Puebla, Mexiko",
       "foot.rights": "© 2026 Tec Girl. Alle Rechte vorbehalten."
@@ -97,6 +100,7 @@
       "pg.c2h": "Minha Página Pessoal",
       "pg.c2p": "Meu canto na web com fundo de cidade cyberpunk: criações, colaborações, sites de interesse, meu Threads e um fórum para comentar.",
       "pg.visit": "Visitar página ↗",
+      "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Página de luxo em preto, dourado e prateado para Ximena Lashes: cílios, maquiagem profissional, penteado e cor, com serviços, preços e contato.",
       "pg.c3h": "Próximo projeto", "pg.c3p": "Em construção. Cada página nova que eu criar vai aparecer aqui.",
       "foot.line": "Hacker Web Designer — Puebla, México",
       "foot.rights": "© 2026 Tec Girl. Todos os direitos reservados."
@@ -122,6 +126,7 @@
       "pg.c2h": "我的个人页面",
       "pg.c2p": "我在网络上的角落，背景是赛博朋克城市：创作、合作、感兴趣的网站、我的 Threads 和一个评论论坛。",
       "pg.visit": "访问页面 ↗",
+      "pg.xh": "Ximena Grace — 美容", "pg.xp": "为 Ximena Lashes 打造的黑、金、银奢华页面：美睫、专业化妆、发型与染发，含服务、价格与联系方式。",
       "pg.c3h": "下一个项目", "pg.c3p": "建设中。我创建的每个新页面都会出现在这里。",
       "foot.line": "黑客网页设计师 — 普埃布拉，墨西哥",
       "foot.rights": "© 2026 Tec Girl。保留所有权利。"
