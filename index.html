@@ -12,13 +12,20 @@
 </head>
 <body>
 
+<!-- Canvas de partículas de fondo -->
+<canvas id="matrix"></canvas>
+
 <header class="nav">
   <a class="logo" href="#top">TEC<span>_</span>GIRL</a>
-  <nav class="menu">
+  
+  <button class="hamburger" aria-label="Menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="menu" id="mainMenu">
     <a href="#bio">Bio</a>
     <a href="#servicios" data-i18n="nav.services">Servicios</a>
     <a href="#paginas" data-i18n="nav.pages">Páginas</a>
-    <a href="#foro" data-i18n="nav.forum">Foro</a>
     <a class="cta" href="https://github.com/tec-girl" target="_blank" rel="noopener">GitHub ↗</a>
     <span class="lang-switch" role="group" aria-label="Language / Idioma">
       <button type="button" data-lang="en">EN</button>
@@ -38,27 +45,30 @@
       <p class="kicker" data-i18n="hero.kicker">// SISTEMA EN LÍNEA — PUEBLA · MÉXICO</p>
       <h1 class="glitch" data-text="TEC GIRL">TEC GIRL</h1>
       <p class="role" data-i18n-html="hero.role">HACKER <span>WEB DESIGNER</span></p>
-      <div class="terminal">
-        <p><span class="prompt">tec-girl@web:~$</span> whoami</p>
-        <p class="out" data-i18n="term.out1">&gt; Diseñadora web. Estética cyberpunk. Código con actitud.</p>
-        <p><span class="prompt">tec-girl@web:~$</span> ./build --future</p>
-        <p class="out"><span data-i18n="term.out2">&gt; Compilando páginas que nadie puede ignorar</span><span class="cursor">▊</span></p>
+      
+      <div class="terminal" id="terminal">
+        <p><span class="prompt">tec-girl@web:~$</span> <span id="cmd1"></span></p>
+        <p class="out" id="out1"></p>
+        <p><span class="prompt">tec-girl@web:~$</span> <span id="cmd2"></span></p>
+        <p class="out"><span id="out2"></span><span class="cursor">▊</span></p>
       </div>
+
       <div class="hero-ctas">
         <a class="btn btn-solid" href="#paginas" data-i18n="hero.btnPages">Ver mis páginas</a>
         <a class="btn btn-ghost" href="#servicios" data-i18n="nav.services">Servicios</a>
       </div>
     </div>
-    <figure class="hero-img">
-      <img src="assets/hacker-girl.webp" alt="Chica hacker estilizada estilo Ghost in the Shell, con interfaces holográficas">
+    <figure class="hero-img reveal">
+      <img src="assets/hacker-girl.webp" alt="Chica hacker estilizada estilo Ghost in the Shell, con interfaces holográficas" loading="eager">
+      <div class="scanline"></div>
     </figure>
   </section>
 
   <!-- ===== BIO ===== -->
   <section class="seccion" id="bio">
-    <p class="sec-kicker">&lt;bio&gt;</p>
-    <h2 class="sec-title" data-i18n="bio.title">Biografía</h2>
-    <div class="bio-box">
+    <p class="sec-kicker reveal">&lt;bio&gt;</p>
+    <h2 class="sec-title reveal" data-i18n="bio.title">Biografía</h2>
+    <div class="bio-box reveal">
       <p data-i18n-html="bio.p1">Soy <strong>Tec Girl</strong>: diseñadora web con alma hacker. Construyo páginas y experiencias digitales con estética <strong>cyberpunk</strong> — neón turquesa, rosa y morado sobre negro — donde el diseño no solo se ve bien: se siente como entrar a otro mundo.</p>
       <p data-i18n="bio.p2">Vengo del diseño de moda y las pasarelas internacionales, y ahora traduzco ese ojo editorial al código: estructura, ritmo, detalle y presencia. Diseño sitios para marcas, portafolios y proyectos que quieren destacar en serio.</p>
       <p class="skills-line" data-i18n="bio.skills">HTML · CSS · JavaScript · Diseño editorial · Estética cyberpunk</p>
@@ -67,25 +77,25 @@
 
   <!-- ===== SERVICIOS ===== -->
   <section class="seccion" id="servicios">
-    <p class="sec-kicker">&lt;servicios&gt;</p>
-    <h2 class="sec-title" data-i18n="nav.services">Servicios</h2>
+    <p class="sec-kicker reveal">&lt;servicios&gt;</p>
+    <h2 class="sec-title reveal" data-i18n="nav.services">Servicios</h2>
     <div class="cards">
-      <article class="card">
+      <article class="card reveal">
         <p class="card-tag">[ 01 ]</p>
         <h3 data-i18n="sv.c1h">Diseño web cyberpunk</h3>
         <p data-i18n="sv.c1p">Sitios con identidad neón: oscuros, brillantes y memorables, hechos a la medida de tu marca.</p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <p class="card-tag">[ 02 ]</p>
         <h3 data-i18n="sv.c2h">Landing pages</h3>
         <p data-i18n="sv.c2p">Páginas de aterrizaje rápidas y directas para lanzamientos, eventos y campañas.</p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <p class="card-tag">[ 03 ]</p>
         <h3 data-i18n="sv.c3h">Portafolios &amp; sitios personales</h3>
         <p data-i18n="sv.c3p">Tu carta de presentación en la web: quién eres, qué haces y por qué tú, con estilo propio.</p>
       </article>
-      <article class="card">
+      <article class="card reveal">
         <p class="card-tag">[ 04 ]</p>
         <h3 data-i18n="sv.c4h">Sitios para marcas</h3>
         <p data-i18n="sv.c4p">Páginas completas para marcas y negocios que quieren presencia digital de otro nivel.</p>
@@ -95,44 +105,32 @@
 
   <!-- ===== PÁGINAS ===== -->
   <section class="seccion" id="paginas">
-    <p class="sec-kicker">&lt;páginas&gt;</p>
-    <h2 class="sec-title" data-i18n="pg.title">Páginas creadas</h2>
+    <p class="sec-kicker reveal">&lt;páginas&gt;</p>
+    <h2 class="sec-title reveal" data-i18n="pg.title">Páginas creadas</h2>
     <div class="cards">
-      <article class="card project">
+      <article class="card project reveal">
         <p class="card-tag">[ ONLINE ]</p>
         <h3>Keysi Kunz — Fashion</h3>
         <p data-i18n="pg.c1p">Mi página de moda: diseñadora, modelo Elite de pasarela y Founder &amp; Director de Keysi Models. París, esgrima y pole dance en un solo sitio.</p>
         <a class="btn btn-solid small" href="https://tec-girl.github.io/keysi.github.io/" target="_blank" rel="noopener" data-i18n="pg.visit">Visitar página ↗</a>
       </article>
-      <article class="card project">
+      <article class="card project reveal">
         <p class="card-tag">[ ONLINE ]</p>
         <h3 data-i18n="pg.c2h">Mi Página Personal</h3>
         <p data-i18n="pg.c2p">Mi rincón en la red con fondo de ciudad cyberpunk: creaciones, colaboraciones, sitios de interés, mi Threads y un foro para comentar.</p>
         <a class="btn btn-solid small" href="personal.html" data-i18n="pg.visit">Visitar página ↗</a>
       </article>
-      <article class="card project">
+      <article class="card project reveal">
         <p class="card-tag">[ ONLINE ]</p>
         <h3 data-i18n="pg.xh">Ximena Grace — Beauty</h3>
         <p data-i18n="pg.xp">Página de lujo en negro, dorado y plateado para Ximena Lashes: pestañas, maquillaje profesional, peinado y color, con servicios, costos y contacto.</p>
         <a class="btn btn-solid small" href="https://tec-girl.github.io/ximena_grace.github.io/" target="_blank" rel="noopener" data-i18n="pg.visit">Visitar página ↗</a>
       </article>
-      <article class="card project dim">
+      <article class="card project dim reveal">
         <p class="card-tag">[ COMPILING… ]</p>
         <h3 data-i18n="pg.c3h">Próximo proyecto</h3>
         <p data-i18n="pg.c3p">En construcción. Cada página nueva que cree aparecerá aquí.</p>
       </article>
-    </div>
-  </section>
-  <!-- ===== FORO ===== -->
-  <section class="seccion" id="foro">
-    <p class="sec-kicker">&lt;foro&gt;</p>
-    <h2 class="sec-title" data-i18n="fo.title">Foro de la comunidad</h2>
-    <div class="bio-box">
-      <p data-i18n="fo.p">Saluda, opina sobre mis páginas, propón ideas o colaboraciones. El foro vive en GitHub Discussions: entra con tu cuenta de GitHub y comenta.</p>
-      <div class="hero-ctas">
-        <a class="btn btn-solid" href="https://github.com/tec-girl/tec-girl.github.io/discussions" target="_blank" rel="noopener" data-i18n="fo.btn1">Comentar ahora ↗</a>
-        <a class="btn btn-ghost" href="personal.html#foro" data-i18n="fo.btn2">Foro en mi página personal</a>
-      </div>
     </div>
   </section>
 </main>
