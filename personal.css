@@ -69,6 +69,23 @@ a{color:var(--turq)}
 .thread-frame blockquote{padding:1rem}
 .thread-cta{text-align:center;padding:0 1rem 1.4rem}
 
+/* ===== JUEGO ===== */
+.game-hud{display:flex;gap:1.8rem;flex-wrap:wrap;margin-bottom:.4rem;font-size:.95rem}
+.game-hud b{color:var(--turq)}
+.game-arena{position:relative;height:320px;border:1px solid var(--line);background:rgba(5,5,12,.55);
+  overflow:hidden;margin:1rem 0;touch-action:manipulation}
+.orb{position:absolute;border-radius:50%;cursor:pointer;border:none;padding:0;
+  animation:orbIn .16s ease-out, orbPulse .55s ease-in-out infinite alternate}
+@keyframes orbIn{from{transform:scale(.3);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes orbPulse{from{filter:brightness(1)}to{filter:brightness(1.45)}}
+.orb-t{background:radial-gradient(circle at 35% 35%,#bffbff,#17c3dc 60%,#0a6d80);box-shadow:0 0 18px #17c3dc}
+.orb-p{background:radial-gradient(circle at 35% 35%,#ffd7ea,#ff5da2 60%,#a11754);box-shadow:0 0 18px #ff5da2}
+.orb-m{background:radial-gradient(circle at 35% 35%,#e6dcff,#8b5cf6 60%,#4c1d95);box-shadow:0 0 18px #8b5cf6}
+.orb-g{background:radial-gradient(circle at 35% 35%,#fff6da,#f2c14e 60%,#9a7414);box-shadow:0 0 24px #f2c14e}
+.game-msg{min-height:1.4rem;color:var(--pink);margin-bottom:.6rem}
+.game-btn{cursor:pointer;background:transparent;font-family:var(--mono)}
+.game-btn:disabled{opacity:.45;cursor:default}
+
 /* ===== FORO ===== */
 .foro-loading{color:var(--dim)}
 .foro-alt{margin-top:1.2rem;font-size:.85rem;color:var(--dim)}

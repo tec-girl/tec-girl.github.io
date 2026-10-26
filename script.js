@@ -25,6 +25,11 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxury page in black, gold and silver for Ximena Lashes: lashes, professional makeup, hair and color, with services, prices and contact.",
       "pg.c3h": "Next project", "pg.c3p": "Under construction. Every new page I create will appear here.",
       "foot.line": "Hacker Web Designer — Puebla, Mexico",
+      "nav.forum": "Forum",
+      "fo.title": "Community Forum",
+      "fo.p": "Say hi, share your take on my pages, propose ideas or collaborations. The forum lives on GitHub Discussions: sign in with your GitHub account and comment.",
+      "fo.btn1": "Comment now ↗",
+      "fo.btn2": "Forum on my personal page",
       "foot.rights": "© 2026 Tec Girl. All rights reserved."
     },
     fr: {
@@ -51,6 +56,11 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Page de luxe en noir, doré et argenté pour Ximena Lashes : cils, maquillage professionnel, coiffure et couleur, avec services, tarifs et contact.",
       "pg.c3h": "Prochain projet", "pg.c3p": "En construction. Chaque nouvelle page que je crée apparaîtra ici.",
       "foot.line": "Hacker Web Designer — Puebla, Mexique",
+      "nav.forum": "Forum",
+      "fo.title": "Forum de la communauté",
+      "fo.p": "Salue, donne ton avis sur mes pages, propose des idées ou des collaborations. Le forum vit sur GitHub Discussions : connecte-toi avec ton compte GitHub et commente.",
+      "fo.btn1": "Commenter ↗",
+      "fo.btn2": "Forum sur ma page personnelle",
       "foot.rights": "© 2026 Tec Girl. Tous droits réservés."
     },
     de: {
@@ -77,6 +87,11 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxus-Seite in Schwarz, Gold und Silber für Ximena Lashes: Wimpern, professionelles Make-up, Frisur und Farbe, mit Leistungen, Preisen und Kontakt.",
       "pg.c3h": "Nächstes Projekt", "pg.c3p": "Im Bau. Jede neue Seite, die ich erstelle, erscheint hier.",
       "foot.line": "Hacker Web Designer — Puebla, Mexiko",
+      "nav.forum": "Forum",
+      "fo.title": "Community-Forum",
+      "fo.p": "Sag hallo, gib deine Meinung zu meinen Seiten ab, schlage Ideen oder Kollaborationen vor. Das Forum lebt auf GitHub Discussions: Melde dich mit deinem GitHub-Konto an und kommentiere.",
+      "fo.btn1": "Jetzt kommentieren ↗",
+      "fo.btn2": "Forum auf meiner persönlichen Seite",
       "foot.rights": "© 2026 Tec Girl. Alle Rechte vorbehalten."
     },
     pt: {
@@ -103,6 +118,11 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Página de luxo em preto, dourado e prateado para Ximena Lashes: cílios, maquiagem profissional, penteado e cor, com serviços, preços e contato.",
       "pg.c3h": "Próximo projeto", "pg.c3p": "Em construção. Cada página nova que eu criar vai aparecer aqui.",
       "foot.line": "Hacker Web Designer — Puebla, México",
+      "nav.forum": "Fórum",
+      "fo.title": "Fórum da comunidade",
+      "fo.p": "Cumprimente, opine sobre minhas páginas, proponha ideias ou colaborações. O fórum vive no GitHub Discussions: entre com sua conta do GitHub e comente.",
+      "fo.btn1": "Comentar agora ↗",
+      "fo.btn2": "Fórum na minha página pessoal",
       "foot.rights": "© 2026 Tec Girl. Todos os direitos reservados."
     },
     zh: {
@@ -129,6 +149,11 @@
       "pg.xh": "Ximena Grace — 美容", "pg.xp": "为 Ximena Lashes 打造的黑、金、银奢华页面：美睫、专业化妆、发型与染发，含服务、价格与联系方式。",
       "pg.c3h": "下一个项目", "pg.c3p": "建设中。我创建的每个新页面都会出现在这里。",
       "foot.line": "黑客网页设计师 — 普埃布拉，墨西哥",
+      "nav.forum": "论坛",
+      "fo.title": "社区论坛",
+      "fo.p": "打个招呼、对我的页面发表看法、提出想法或合作。论坛位于 GitHub Discussions：用 GitHub 账号登录即可评论。",
+      "fo.btn1": "立即评论 ↗",
+      "fo.btn2": "个人页面上的论坛",
       "foot.rights": "© 2026 Tec Girl。保留所有权利。"
     }
   };

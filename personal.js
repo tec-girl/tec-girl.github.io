@@ -24,6 +24,16 @@
       "si.c4h": "Paris Fashion Week — FHCM", "si.c4p": "The official calendar of fashion in Paris, my other home.",
       "th.title": "My Threads", "th.link": "See my presentation thread on Threads ↗", "th.follow": "Follow me on Threads ↗",
       "fo.title": "Forum — comment here",
+      "nav.game": "Game",
+      "game.title": "Game: Catch the Neon",
+      "game.sub": "Tap the neon orbs before they vanish. Golden ones are worth 25 points; the rest, 10. You have 45 seconds!",
+      "game.start": "▶ Play",
+      "game.score": "Score",
+      "game.time": "Time",
+      "game.best": "Best",
+      "game.over": "🎉 Game over! Your score: ",
+      "game.again": "Play again",
+      "game.playing": "Playing…",
       "fo.p1": "This is your space: say hi, share your take on the pages, propose ideas or collaborations. Comments live on GitHub Discussions — sign in with your GitHub account and comment. 👇",
       "fo.loading": "Loading the forum…",
       "fo.alt": "Forum not loading? Comment directly on",
@@ -54,6 +64,16 @@
       "si.c4h": "Paris Fashion Week — FHCM", "si.c4p": "Le calendrier officiel de la mode à Paris, mon autre maison.",
       "th.title": "Mon Threads", "th.link": "Voir mon fil de présentation sur Threads ↗", "th.follow": "Me suivre sur Threads ↗",
       "fo.title": "Forum — commente ici",
+      "nav.game": "Jeu",
+      "game.title": "Jeu : Attrape le Néon",
+      "game.sub": "Touche les orbes néon avant qu'elles ne disparaissent. Les dorées valent 25 points ; les autres, 10. Tu as 45 secondes !",
+      "game.start": "▶ Jouer",
+      "game.score": "Points",
+      "game.time": "Temps",
+      "game.best": "Record",
+      "game.over": "🎉 Fin du jeu ! Ton score : ",
+      "game.again": "Rejouer",
+      "game.playing": "En cours…",
       "fo.p1": "C'est ton espace : salue, donne ton avis sur les pages, propose des idées ou des collaborations. Les commentaires vivent sur GitHub Discussions — connecte-toi avec ton compte GitHub et commente. 👇",
       "fo.loading": "Chargement du forum…",
       "fo.alt": "Le forum ne charge pas ? Commente directement sur",
@@ -84,6 +104,16 @@
       "si.c4h": "Paris Fashion Week — FHCM", "si.c4p": "Der offizielle Modekalender von Paris, mein zweites Zuhause.",
       "th.title": "Mein Threads", "th.link": "Meinen Vorstellungs-Thread auf Threads ansehen ↗", "th.follow": "Mir auf Threads folgen ↗",
       "fo.title": "Forum — kommentiere hier",
+      "nav.game": "Spiel",
+      "game.title": "Spiel: Fang das Neon",
+      "game.sub": "Tippe die Neon-Kugeln an, bevor sie verschwinden. Goldene geben 25 Punkte, die anderen 10. Du hast 45 Sekunden!",
+      "game.start": "▶ Spielen",
+      "game.score": "Punkte",
+      "game.time": "Zeit",
+      "game.best": "Rekord",
+      "game.over": "🎉 Spiel vorbei! Deine Punktzahl: ",
+      "game.again": "Nochmal spielen",
+      "game.playing": "Läuft…",
       "fo.p1": "Das ist dein Bereich: sag hallo, gib deine Meinung zu den Seiten ab, schlage Ideen oder Kollaborationen vor. Die Kommentare leben auf GitHub Discussions — melde dich mit deinem GitHub-Konto an und kommentiere. 👇",
       "fo.loading": "Forum wird geladen…",
       "fo.alt": "Forum lädt nicht? Kommentiere direkt auf",
@@ -114,6 +144,16 @@
       "si.c4h": "Paris Fashion Week — FHCM", "si.c4p": "O calendário oficial da moda em Paris, minha outra casa.",
       "th.title": "Meu Threads", "th.link": "Ver meu fio de apresentação no Threads ↗", "th.follow": "Seguir-me no Threads ↗",
       "fo.title": "Fórum — comente aqui",
+      "nav.game": "Jogo",
+      "game.title": "Jogo: Pegue o Neon",
+      "game.sub": "Toque nas esferas de neon antes que desapareçam. As douradas valem 25 pontos; as outras, 10. Você tem 45 segundos!",
+      "game.start": "▶ Jogar",
+      "game.score": "Pontos",
+      "game.time": "Tempo",
+      "game.best": "Recorde",
+      "game.over": "🎉 Fim de jogo! Sua pontuação: ",
+      "game.again": "Jogar de novo",
+      "game.playing": "Jogando…",
       "fo.p1": "Este é o seu espaço: cumprimente, opine sobre as páginas, proponha ideias ou colaborações. Os comentários vivem no GitHub Discussions — entre com sua conta do GitHub e comente. 👇",
       "fo.loading": "Carregando o fórum…",
       "fo.alt": "O fórum não carrega? Comente direto no",
@@ -144,6 +184,16 @@
       "si.c4h": "巴黎时装周 — FHCM", "si.c4p": "巴黎时尚官方日历，我的另一个家。",
       "th.title": "我的 Threads", "th.link": "在 Threads 查看我的介绍帖 ↗", "th.follow": "在 Threads 关注我 ↗",
       "fo.title": "论坛 — 在这里评论",
+      "nav.game": "游戏",
+      "game.title": "游戏：抓住霓虹",
+      "game.sub": "在霓虹球消失前点中它们。金色的值 25 分，其他 10 分。你有 45 秒！",
+      "game.start": "▶ 开始",
+      "game.score": "分数",
+      "game.time": "时间",
+      "game.best": "最高纪录",
+      "game.over": "🎉 游戏结束！你的分数：",
+      "game.again": "再来一局",
+      "game.playing": "进行中…",
       "fo.p1": "这是属于您的空间：打个招呼、对页面发表看法、提出想法或合作。评论位于 GitHub Discussions —— 用您的 GitHub 账号登录即可评论。👇",
       "fo.loading": "论坛加载中…",
       "fo.alt": "论坛无法加载？直接在以下页面评论",
@@ -225,4 +275,81 @@
   var saved = null;
   try { saved = localStorage.getItem('tecgirl-lang'); } catch (e) {}
   if (saved && saved !== 'es') applyLang(saved); else renderForum('es');
+
+  // ===== JUEGO: ATRAPA EL NEÓN =====
+  var ES_GAME = { 'game.over': '🎉 ¡Fin del juego! Tu puntaje: ', 'game.again': 'Jugar otra vez', 'game.playing': 'Jugando…' };
+  function t(k) {
+    var d = I18N[curLang];
+    return (d && d[k] != null) ? d[k] : (originals[k] != null ? originals[k] : (ES_GAME[k] || k));
+  }
+  var arena = document.getElementById('game-arena');
+  var btnStart = document.getElementById('g-start');
+  if (arena && btnStart) {
+    var elScore = document.getElementById('g-score');
+    var elTime = document.getElementById('g-time');
+    var elBest = document.getElementById('g-best');
+    var elMsg = document.getElementById('g-msg');
+    var best = 0;
+    try { best = parseInt(localStorage.getItem('neoncatch-best') || '0', 10) || 0; } catch (e) {}
+    elBest.textContent = best;
+    var playing = false, score = 0, timeLeft = 45, spawnTimer = null, clockTimer = null;
+
+    function spawnOrb() {
+      if (!playing) return;
+      var orb = document.createElement('button');
+      var gold = Math.random() < 0.16;
+      var kind = gold ? 'orb-g' : ['orb-t', 'orb-p', 'orb-m'][Math.floor(Math.random() * 3)];
+      var size = gold ? 34 : 30 + Math.random() * 26;
+      orb.type = 'button';
+      orb.className = 'orb ' + kind;
+      orb.style.width = size + 'px';
+      orb.style.height = size + 'px';
+      orb.style.left = (Math.random() * (arena.clientWidth - size - 8) + 4) + 'px';
+      orb.style.top = (Math.random() * (arena.clientHeight - size - 8) + 4) + 'px';
+      orb.setAttribute('aria-label', 'orbe');
+      var life = setTimeout(function () { orb.remove(); }, 1150);
+      orb.addEventListener('click', function () {
+        clearTimeout(life);
+        score += gold ? 25 : 10;
+        elScore.textContent = score;
+        orb.remove();
+      });
+      arena.appendChild(orb);
+    }
+
+    function endGame() {
+      playing = false;
+      clearInterval(spawnTimer);
+      clearInterval(clockTimer);
+      arena.innerHTML = '';
+      if (score > best) {
+        best = score;
+        elBest.textContent = best;
+        try { localStorage.setItem('neoncatch-best', String(best)); } catch (e) {}
+      }
+      elMsg.textContent = t('game.over') + score;
+      btnStart.disabled = false;
+      btnStart.textContent = t('game.again');
+    }
+
+    btnStart.addEventListener('click', function () {
+      if (playing) return;
+      playing = true;
+      score = 0;
+      timeLeft = 45;
+      elScore.textContent = '0';
+      elTime.textContent = '45';
+      elMsg.textContent = '';
+      arena.innerHTML = '';
+      btnStart.disabled = true;
+      btnStart.textContent = t('game.playing');
+      spawnTimer = setInterval(spawnOrb, 620);
+      spawnOrb();
+      clockTimer = setInterval(function () {
+        timeLeft--;
+        elTime.textContent = timeLeft;
+        if (timeLeft <= 0) endGame();
+      }, 1000);
+    });
+  }
 })();
