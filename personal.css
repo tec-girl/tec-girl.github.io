@@ -86,6 +86,16 @@ a{color:var(--turq)}
 .game-btn{cursor:pointer;background:transparent;font-family:var(--mono)}
 .game-btn:disabled{opacity:.45;cursor:default}
 
+/* ===== NOTICIAS HACKER ===== */
+.hn-list{list-style:none;margin-top:.6rem}
+.hn-list li{padding:.62rem 0;border-bottom:1px solid var(--line)}
+.hn-list li:last-child{border-bottom:none}
+.hn-list a{color:#f3eafd;text-decoration:none;font-weight:600;line-height:1.35;display:block}
+.hn-list a:hover{color:var(--turq)}
+.hn-meta{display:block;font-size:.74rem;letter-spacing:.06em;color:#b9a8dd;margin-top:.22rem;text-transform:uppercase}
+.hn-msg{color:#cbb8e8;font-style:italic}
+.hn-more{margin-top:.9rem}
+
 /* ===== FORO ===== */
 .foro-loading{color:var(--dim)}
 .foro-alt{margin-top:1.2rem;font-size:.85rem;color:var(--dim)}
