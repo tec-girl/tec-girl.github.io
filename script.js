@@ -1,8 +1,5 @@
-// TEC GIRL — site más dinámica
-// i18n + typing terminal + matrix + reveal + hamburger
-
+// TEC GIRL — idiomas (EN · ES · FR · DE · 中文 · PT) — el español es el HTML original
 (function () {
-  /* ========== I18N (mismo sistema de antes) ========== */
   var I18N = {
     en: {
       "pageTitle": "TEC GIRL — Hacker Web Designer",
@@ -28,6 +25,21 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxury page in black, gold and silver for Ximena Lashes: lashes, professional makeup, hair and color, with services, prices and contact.",
       "pg.c3h": "Next project", "pg.c3p": "Under construction. Every new page I create will appear here.",
       "foot.line": "Hacker Web Designer — Puebla, Mexico",
+      "nav.game": "Game",
+      "game.title": "Game: Catch the Neon",
+      "game.sub": "Tap the neon orbs before they vanish. Golden ones are worth 25 points; the rest, 10. You have 45 seconds!",
+      "game.start": "▶ Play",
+      "game.score": "Score",
+      "game.time": "Time",
+      "game.best": "Best",
+      "game.over": "🎉 Game over! Your score: ",
+      "game.again": "Play again",
+      "game.playing": "Playing…",
+      "nav.forum": "Forum",
+      "fo.title": "Community Forum",
+      "fo.p": "Say hi, share your take on my pages, propose ideas or collaborations. The forum lives on GitHub Discussions: sign in with your GitHub account and comment.",
+      "fo.btn1": "Comment now ↗",
+      "fo.btn2": "Forum on my personal page",
       "foot.rights": "© 2026 Tec Girl. All rights reserved."
     },
     fr: {
@@ -54,6 +66,21 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Page de luxe en noir, doré et argenté pour Ximena Lashes : cils, maquillage professionnel, coiffure et couleur, avec services, tarifs et contact.",
       "pg.c3h": "Prochain projet", "pg.c3p": "En construction. Chaque nouvelle page que je crée apparaîtra ici.",
       "foot.line": "Hacker Web Designer — Puebla, Mexique",
+      "nav.game": "Jeu",
+      "game.title": "Jeu : Attrape le Néon",
+      "game.sub": "Touche les orbes néon avant qu'elles ne disparaissent. Les dorées valent 25 points ; les autres, 10. Tu as 45 secondes !",
+      "game.start": "▶ Jouer",
+      "game.score": "Points",
+      "game.time": "Temps",
+      "game.best": "Record",
+      "game.over": "🎉 Fin du jeu ! Ton score : ",
+      "game.again": "Rejouer",
+      "game.playing": "En cours…",
+      "nav.forum": "Forum",
+      "fo.title": "Forum de la communauté",
+      "fo.p": "Salue, donne ton avis sur mes pages, propose des idées ou des collaborations. Le forum vit sur GitHub Discussions : connecte-toi avec ton compte GitHub et commente.",
+      "fo.btn1": "Commenter ↗",
+      "fo.btn2": "Forum sur ma page personnelle",
       "foot.rights": "© 2026 Tec Girl. Tous droits réservés."
     },
     de: {
@@ -80,6 +107,21 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Luxus-Seite in Schwarz, Gold und Silber für Ximena Lashes: Wimpern, professionelles Make-up, Frisur und Farbe, mit Leistungen, Preisen und Kontakt.",
       "pg.c3h": "Nächstes Projekt", "pg.c3p": "Im Bau. Jede neue Seite, die ich erstelle, erscheint hier.",
       "foot.line": "Hacker Web Designer — Puebla, Mexiko",
+      "nav.game": "Spiel",
+      "game.title": "Spiel: Fang das Neon",
+      "game.sub": "Tippe die Neon-Kugeln an, bevor sie verschwinden. Goldene geben 25 Punkte, die anderen 10. Du hast 45 Sekunden!",
+      "game.start": "▶ Spielen",
+      "game.score": "Punkte",
+      "game.time": "Zeit",
+      "game.best": "Rekord",
+      "game.over": "🎉 Spiel vorbei! Deine Punktzahl: ",
+      "game.again": "Nochmal spielen",
+      "game.playing": "Läuft…",
+      "nav.forum": "Forum",
+      "fo.title": "Community-Forum",
+      "fo.p": "Sag hallo, gib deine Meinung zu meinen Seiten ab, schlage Ideen oder Kollaborationen vor. Das Forum lebt auf GitHub Discussions: Melde dich mit deinem GitHub-Konto an und kommentiere.",
+      "fo.btn1": "Jetzt kommentieren ↗",
+      "fo.btn2": "Forum auf meiner persönlichen Seite",
       "foot.rights": "© 2026 Tec Girl. Alle Rechte vorbehalten."
     },
     pt: {
@@ -106,6 +148,21 @@
       "pg.xh": "Ximena Grace — Beauty", "pg.xp": "Página de luxo em preto, dourado e prateado para Ximena Lashes: cílios, maquiagem profissional, penteado e cor, com serviços, preços e contato.",
       "pg.c3h": "Próximo projeto", "pg.c3p": "Em construção. Cada página nova que eu criar vai aparecer aqui.",
       "foot.line": "Hacker Web Designer — Puebla, México",
+      "nav.game": "Jogo",
+      "game.title": "Jogo: Pegue o Neon",
+      "game.sub": "Toque nas esferas de neon antes que desapareçam. As douradas valem 25 pontos; as outras, 10. Você tem 45 segundos!",
+      "game.start": "▶ Jogar",
+      "game.score": "Pontos",
+      "game.time": "Tempo",
+      "game.best": "Recorde",
+      "game.over": "🎉 Fim de jogo! Sua pontuação: ",
+      "game.again": "Jogar de novo",
+      "game.playing": "Jogando…",
+      "nav.forum": "Fórum",
+      "fo.title": "Fórum da comunidade",
+      "fo.p": "Cumprimente, opine sobre minhas páginas, proponha ideias ou colaborações. O fórum vive no GitHub Discussions: entre com sua conta do GitHub e comente.",
+      "fo.btn1": "Comentar agora ↗",
+      "fo.btn2": "Fórum na minha página pessoal",
       "foot.rights": "© 2026 Tec Girl. Todos os direitos reservados."
     },
     zh: {
@@ -132,6 +189,21 @@
       "pg.xh": "Ximena Grace — 美容", "pg.xp": "为 Ximena Lashes 打造的黑、金、银奢华页面：美睫、专业化妆、发型与染发，含服务、价格与联系方式。",
       "pg.c3h": "下一个项目", "pg.c3p": "建设中。我创建的每个新页面都会出现在这里。",
       "foot.line": "黑客网页设计师 — 普埃布拉，墨西哥",
+      "nav.game": "游戏",
+      "game.title": "游戏：抓住霓虹",
+      "game.sub": "在霓虹球消失前点中它们。金色的值 25 分，其他 10 分。你有 45 秒！",
+      "game.start": "▶ 开始",
+      "game.score": "分数",
+      "game.time": "时间",
+      "game.best": "最高纪录",
+      "game.over": "🎉 游戏结束！你的分数：",
+      "game.again": "再来一局",
+      "game.playing": "进行中…",
+      "nav.forum": "论坛",
+      "fo.title": "社区论坛",
+      "fo.p": "打个招呼、对我的页面发表看法、提出想法或合作。论坛位于 GitHub Discussions：用 GitHub 账号登录即可评论。",
+      "fo.btn1": "立即评论 ↗",
+      "fo.btn2": "个人页面上的论坛",
       "foot.rights": "© 2026 Tec Girl。保留所有权利。"
     }
   };
@@ -163,9 +235,6 @@
       b.classList.toggle('active', b.getAttribute('data-lang') === lang);
     });
     try { localStorage.setItem('tecgirl-lang', lang); } catch (e) {}
-
-    // Reiniciar typing con el nuevo idioma
-    startTyping(lang);
   }
 
   document.querySelectorAll('.lang-switch button').forEach(function (b) {
@@ -176,174 +245,113 @@
   try { saved = localStorage.getItem('tecgirl-lang'); } catch (e) {}
   if (saved && saved !== 'es') applyLang(saved);
 
-  /* ========== TYPING EFFECT ========== */
-  var typingRunning = false;
-  function typeText(el, text, speed, callback) {
-    el.textContent = '';
-    var i = 0;
-    function type() {
-      if (i < text.length) {
-        el.textContent += text.charAt(i);
-        i++;
-        setTimeout(type, speed);
-      } else if (callback) {
-        callback();
-      }
-    }
-    type();
+  // ===== JUEGO: ATRAPA EL NEÓN =====
+  var ES_GAME = { 'game.over': '🎉 ¡Fin del juego! Tu puntaje: ', 'game.again': 'Jugar otra vez', 'game.playing': 'Jugando…' };
+  function t(k) {
+    var d = I18N[curLang];
+    return (d && d[k] != null) ? d[k] : (originals[k] != null ? originals[k] : (ES_GAME[k] || k));
   }
+  var arena = document.getElementById('game-arena');
+  var btnStart = document.getElementById('g-start');
+  if (arena && btnStart) {
+    var elScore = document.getElementById('g-score');
+    var elTime = document.getElementById('g-time');
+    var elBest = document.getElementById('g-best');
+    var elMsg = document.getElementById('g-msg');
+    var best = 0;
+    try { best = parseInt(localStorage.getItem('neoncatch-best') || '0', 10) || 0; } catch (e) {}
+    elBest.textContent = best;
+    var playing = false, score = 0, timeLeft = 45, spawnTimer = null, clockTimer = null;
 
-  function startTyping(lang) {
-    if (typingRunning) return;
-    typingRunning = true;
-
-    var dict = I18N[lang] || null;
-    var out1 = dict ? dict['term.out1'] : '> Diseñadora web. Estética cyberpunk. Código con actitud.';
-    var out2 = dict ? dict['term.out2'] : '> Compilando páginas que nadie puede ignorar';
-
-    var cmd1 = document.getElementById('cmd1');
-    var out1El = document.getElementById('out1');
-    var cmd2 = document.getElementById('cmd2');
-    var out2El = document.getElementById('out2');
-
-    if (!cmd1) { typingRunning = false; return; }
-
-    cmd1.textContent = '';
-    out1El.textContent = '';
-    cmd2.textContent = '';
-    out2El.textContent = '';
-
-    typeText(cmd1, 'whoami', 70, function () {
-      setTimeout(function () {
-        typeText(out1El, out1, 28, function () {
-          setTimeout(function () {
-            typeText(cmd2, './build --future', 55, function () {
-              setTimeout(function () {
-                typeText(out2El, out2, 28, function () {
-                  typingRunning = false;
-                });
-              }, 300);
-            });
-          }, 400);
-        });
-      }, 350);
-    });
-  }
-
-  // Iniciar typing al cargar (español por defecto)
-  if (!saved || saved === 'es') {
-    startTyping('es');
-  }
-
-  /* ========== MATRIX / PARTICLES ========== */
-  var canvas = document.getElementById('matrix');
-  if (canvas) {
-    var ctx = canvas.getContext('2d');
-    var w, h, columns, drops;
-    var chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン<>[]{}|/\\';
-
-    function resize() {
-      w = canvas.width = window.innerWidth;
-      h = canvas.height = window.innerHeight;
-      columns = Math.floor(w / 18);
-      drops = Array(columns).fill(1);
-    }
-    resize();
-    window.addEventListener('resize', resize);
-
-    function draw() {
-      ctx.fillStyle = 'rgba(7,6,13,0.05)';
-      ctx.fillRect(0, 0, w, h);
-      ctx.fillStyle = '#17c3dc';
-      ctx.font = '13px "Share Tech Mono", monospace';
-
-      for (var i = 0; i < drops.length; i++) {
-        var text = chars[Math.floor(Math.random() * chars.length)];
-        ctx.fillText(text, i * 18, drops[i] * 18);
-        if (drops[i] * 18 > h && Math.random() > 0.975) {
-          drops[i] = 0;
-        }
-        drops[i]++;
-      }
-      requestAnimationFrame(draw);
-    }
-    draw();
-  }
-
-  /* ========== SCROLL REVEAL ========== */
-  var reveals = document.querySelectorAll('.reveal');
-  var observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-
-  reveals.forEach(function (el) { observer.observe(el); });
-
-  /* ========== HAMBURGER MENU ========== */
-  var hamburger = document.querySelector('.hamburger');
-  var menu = document.getElementById('mainMenu');
-  if (hamburger && menu) {
-    hamburger.addEventListener('click', function () {
-      var open = menu.classList.toggle('open');
-      hamburger.classList.toggle('active', open);
-      hamburger.setAttribute('aria-expanded', open);
-    });
-
-    // Cerrar al hacer click en un link
-    menu.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        menu.classList.remove('open');
-        hamburger.classList.remove('active');
-        hamburger.setAttribute('aria-expanded', 'false');
+    function spawnOrb() {
+      if (!playing) return;
+      var orb = document.createElement('button');
+      var gold = Math.random() < 0.16;
+      var kind = gold ? 'orb-g' : ['orb-t', 'orb-p', 'orb-m'][Math.floor(Math.random() * 3)];
+      var size = gold ? 34 : 30 + Math.random() * 26;
+      orb.type = 'button';
+      orb.className = 'orb ' + kind;
+      orb.style.width = size + 'px';
+      orb.style.height = size + 'px';
+      orb.style.left = (Math.random() * (arena.clientWidth - size - 8) + 4) + 'px';
+      orb.style.top = (Math.random() * (arena.clientHeight - size - 8) + 4) + 'px';
+      orb.setAttribute('aria-label', 'orbe');
+      var life = setTimeout(function () { orb.remove(); }, 1150);
+      orb.addEventListener('click', function () {
+        clearTimeout(life);
+        score += gold ? 25 : 10;
+        elScore.textContent = score;
+        orb.remove();
       });
+      arena.appendChild(orb);
+    }
+
+    function endGame() {
+      playing = false;
+      clearInterval(spawnTimer);
+      clearInterval(clockTimer);
+      arena.innerHTML = '';
+      if (score > best) {
+        best = score;
+        elBest.textContent = best;
+        try { localStorage.setItem('neoncatch-best', String(best)); } catch (e) {}
+      }
+      elMsg.textContent = t('game.over') + score;
+      btnStart.disabled = false;
+      btnStart.textContent = t('game.again');
+    }
+
+    btnStart.addEventListener('click', function () {
+      if (playing) return;
+      playing = true;
+      score = 0;
+      timeLeft = 45;
+      elScore.textContent = '0';
+      elTime.textContent = '45';
+      elMsg.textContent = '';
+      arena.innerHTML = '';
+      btnStart.disabled = true;
+      btnStart.textContent = t('game.playing');
+      spawnTimer = setInterval(spawnOrb, 620);
+      spawnOrb();
+      clockTimer = setInterval(function () {
+        timeLeft--;
+        elTime.textContent = timeLeft;
+        if (timeLeft <= 0) endGame();
+      }, 1000);
     });
   }
+})();
 
-  /* ========== CURSOR PERSONALIZADO — ピ ========== */
-  (function initCursor() {
-    // Solo en desktop (evitar problemas en touch)
-    if (window.matchMedia('(pointer: coarse)').matches) return;
-
-    var cursor = document.createElement('div');
-    cursor.id = 'custom-cursor';
-    cursor.textContent = 'ピ';
-    document.body.appendChild(cursor);
-
-    var mouseX = 0, mouseY = 0;
-    var curX = 0, curY = 0;
-
-    document.addEventListener('mousemove', function (e) {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-    });
-
-    function animateCursor() {
-      curX += (mouseX - curX) * 0.22;
-      curY += (mouseY - curY) * 0.22;
-      cursor.style.left = curX + 'px';
-      cursor.style.top = curY + 'px';
-      requestAnimationFrame(animateCursor);
+/* ===== MATRIX RAIN ===== */
+(function () {
+  var canvas = document.getElementById('matrix');
+  if (!canvas) return;
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ctx = canvas.getContext('2d');
+  var W, H, cols, drops;
+  var CHARS = 'プセフガフトアカサタナハマヤラワ0123456789<>/{}#$%&*+=';
+  var COLORS = ['#17c3dc', '#8b5cf6', '#ff5da2'];
+  function resize() {
+    W = canvas.width = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+    cols = Math.floor(W / 18);
+    drops = [];
+    for (var i = 0; i < cols; i++) drops[i] = Math.random() * (H / 18);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+  setInterval(function () {
+    if (!W) return;
+    ctx.fillStyle = 'rgba(7,6,13,0.08)';
+    ctx.fillRect(0, 0, W, H);
+    ctx.font = '15px monospace';
+    for (var i = 0; i < cols; i++) {
+      var ch = CHARS[Math.floor(Math.random() * CHARS.length)];
+      ctx.fillStyle = COLORS[i % 3];
+      ctx.fillText(ch, i * 18, drops[i] * 18);
+      if (drops[i] * 18 > H && Math.random() > 0.976) drops[i] = 0;
+      drops[i] += 0.6;
     }
-    animateCursor();
-
-    // Efecto click
-    document.addEventListener('mousedown', function () {
-      cursor.classList.add('click');
-    });
-    document.addEventListener('mouseup', function () {
-      cursor.classList.remove('click');
-    });
-
-    // Efecto hover en elementos interactivos
-    var hoverables = 'a, button, .btn, .card, .lang-switch button, .hamburger';
-    document.querySelectorAll(hoverables).forEach(function (el) {
-      el.addEventListener('mouseenter', function () { cursor.classList.add('hover'); });
-      el.addEventListener('mouseleave', function () { cursor.classList.remove('hover'); });
-    });
-  })();
-
+  }, 50);
 })();
