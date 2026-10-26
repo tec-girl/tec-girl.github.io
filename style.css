@@ -113,3 +113,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opa
 .game-btn{cursor:pointer;font-family:var(--mono)}
 .game-btn:disabled{opacity:.45;cursor:default}
 @media (prefers-reduced-motion: reduce){ #matrix{display:none} }
+
+/* Cursor: silueta neón rosa/azul (pedido de Keysi) */
+body{cursor:url('assets/cursor-pole.png') 10 4, auto}
+a, button, input, select, textarea, label, summary, .card, .lang-switch button{cursor:url('assets/cursor-pole.png') 10 4, pointer}
