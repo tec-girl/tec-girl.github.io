@@ -117,3 +117,11 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opa
 /* Cursor: silueta neón rosa/azul (pedido de Keysi) */
 body{cursor:url('assets/cursor-pole.png') 10 4, auto}
 a, button, input, select, textarea, label, summary, .card, .lang-switch button{cursor:url('assets/cursor-pole.png') 10 4, pointer}
+
+/* Dos juegos lado a lado */
+.games-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
+.game2-title{font-family:var(--mono,monospace);color:var(--turq);font-size:1.15rem;margin-bottom:.6rem;letter-spacing:.06em}
+#galaga{width:100%;height:auto;display:block;border:1px solid var(--line);background:#05050d;box-shadow:0 0 24px rgba(23,195,220,.15) inset}
+.gal-controls{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+.gal-hint{font-size:.8rem;opacity:.65;margin-top:.7rem}
+@media (max-width: 900px){.games-grid{grid-template-columns:1fr}}

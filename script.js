@@ -40,7 +40,7 @@
       "game.best": "Best",
       "game.over": "🎉 Game over! Your score: ",
       "game.again": "Play again",
-      "game.playing": "Playing…",
+      "game.playing": "Playing…", "gal.title": "Game: Neon Invasion", "gal.sub": "Pilot your neon ship and shoot down the invader fleet before it lands. Golden ones are worth 25 points; the rest, 10. Defend the galaxy, Tec Girl!", "gal.start": "▶ Play", "gal.score": "Score", "gal.lives": "Lives", "gal.level": "Level", "gal.best": "Best", "gal.fire": "Fire!", "gal.controls": "On desktop: ← → to move and Space to shoot.", "gal.over": "💥 Game over! Your score: ", "gal.again": "Play again", "gal.playing": "Playing…", "gal.win": "✨ Level cleared! Level ",
       "nav.forum": "Forum",
       "fo.title": "Community Forum",
       "fo.p": "Say hi, share your take on my pages, propose ideas or collaborations. The forum lives on GitHub Discussions: sign in with your GitHub account and comment.",
@@ -87,7 +87,7 @@
       "game.best": "Record",
       "game.over": "🎉 Fin du jeu ! Ton score : ",
       "game.again": "Rejouer",
-      "game.playing": "En cours…",
+      "game.playing": "En cours…", "gal.title": "Jeu : Invasion Néon", "gal.sub": "Pilote ton vaisseau néon et abats la flotte ennemie avant qu'elle n'atterrisse. Les dorés valent 25 points ; les autres, 10. Défends la galaxie, Tec Girl !", "gal.start": "▶ Jouer", "gal.score": "Points", "gal.lives": "Vies", "gal.level": "Niveau", "gal.best": "Record", "gal.fire": "Feu !", "gal.controls": "Sur ordinateur : ← → pour bouger et Espace pour tirer.", "gal.over": "💥 Fin du jeu ! Ton score : ", "gal.again": "Rejouer", "gal.playing": "En cours…", "gal.win": "✨ Niveau réussi ! Niveau ",
       "nav.forum": "Forum",
       "fo.title": "Forum de la communauté",
       "fo.p": "Salue, donne ton avis sur mes pages, propose des idées ou des collaborations. Le forum vit sur GitHub Discussions : connecte-toi avec ton compte GitHub et commente.",
@@ -134,7 +134,7 @@
       "game.best": "Rekord",
       "game.over": "🎉 Spiel vorbei! Deine Punktzahl: ",
       "game.again": "Nochmal spielen",
-      "game.playing": "Läuft…",
+      "game.playing": "Läuft…", "gal.title": "Spiel: Neon-Invasion", "gal.sub": "Steuere dein Neon-Schiff und schieße die Invasoren ab, bevor sie landen. Goldene geben 25 Punkte, die anderen 10. Verteidige die Galaxie, Tec Girl!", "gal.start": "▶ Spielen", "gal.score": "Punkte", "gal.lives": "Leben", "gal.level": "Level", "gal.best": "Rekord", "gal.fire": "Feuer!", "gal.controls": "Am Computer: ← → zum Bewegen und Leertaste zum Schießen.", "gal.over": "💥 Spiel vorbei! Deine Punktzahl: ", "gal.again": "Nochmal spielen", "gal.playing": "Läuft…", "gal.win": "✨ Level geschafft! Level ",
       "nav.forum": "Forum",
       "fo.title": "Community-Forum",
       "fo.p": "Sag hallo, gib deine Meinung zu meinen Seiten ab, schlage Ideen oder Kollaborationen vor. Das Forum lebt auf GitHub Discussions: Melde dich mit deinem GitHub-Konto an und kommentiere.",
@@ -181,7 +181,7 @@
       "game.best": "Recorde",
       "game.over": "🎉 Fim de jogo! Sua pontuação: ",
       "game.again": "Jogar de novo",
-      "game.playing": "Jogando…",
+      "game.playing": "Jogando…", "gal.title": "Jogo: Invasão Neon", "gal.sub": "Pilote sua nave neon e derrube a frota invasora antes que ela pouse. Os dourados valem 25 pontos; os outros, 10. Defenda a galáxia, Tec Girl!", "gal.start": "▶ Jogar", "gal.score": "Pontos", "gal.lives": "Vidas", "gal.level": "Nível", "gal.best": "Recorde", "gal.fire": "Fogo!", "gal.controls": "No computador: ← → para mover e Espaço para atirar.", "gal.over": "💥 Fim de jogo! Sua pontuação: ", "gal.again": "Jogar de novo", "gal.playing": "Jogando…", "gal.win": "✨ Nível superado! Nível ",
       "nav.forum": "Fórum",
       "fo.title": "Fórum da comunidade",
       "fo.p": "Cumprimente, opine sobre minhas páginas, proponha ideias ou colaborações. O fórum vive no GitHub Discussions: entre com sua conta do GitHub e comente.",
@@ -228,7 +228,7 @@
       "game.best": "最高纪录",
       "game.over": "🎉 游戏结束！你的分数：",
       "game.again": "再来一局",
-      "game.playing": "进行中…",
+      "game.playing": "进行中…", "gal.title": "游戏：霓虹入侵", "gal.sub": "驾驶你的霓虹飞船，在入侵舰队着陆前将其击落。金色的值 25 分，其余 10 分。保卫银河，Tec Girl！", "gal.start": "▶ 开始", "gal.score": "分数", "gal.lives": "生命", "gal.level": "关卡", "gal.best": "纪录", "gal.fire": "开火！", "gal.controls": "电脑操作：← → 移动，空格射击。", "gal.over": "💥 游戏结束！你的得分：", "gal.again": "再玩一次", "gal.playing": "游戏中…", "gal.win": "✨ 过关！关卡 ",
       "nav.forum": "论坛",
       "fo.title": "社区论坛",
       "fo.p": "打个招呼、对我的页面发表看法、提出想法或合作。论坛位于 GitHub Discussions：用 GitHub 账号登录即可评论。",
@@ -250,7 +250,10 @@
     if (!(k in originals)) originals[k] = el.innerHTML;
   });
 
+  var curLang = 'es';
+
   function applyLang(lang) {
+    curLang = lang;
     var dict = I18N[lang] || null;
     textEls.forEach(function (el) {
       var k = el.getAttribute('data-i18n');
@@ -274,6 +277,7 @@
   var saved = null;
   try { saved = localStorage.getItem('tecgirl-lang'); } catch (e) {}
   if (saved && saved !== 'es') applyLang(saved);
+  else curLang = 'es';
 
   // ===== JUEGO: ATRAPA EL NEÓN =====
   var ES_GAME = { 'game.over': '🎉 ¡Fin del juego! Tu puntaje: ', 'game.again': 'Jugar otra vez', 'game.playing': 'Jugando…' };
@@ -351,6 +355,242 @@
       }, 1000);
     });
   }
+  // ===== JUEGO 2: INVASIÓN NEÓN (tipo Galaga) =====
+  var ES_GAL = { 'gal.over': '💥 ¡Fin del juego! Tu puntaje: ', 'gal.again': 'Jugar otra vez', 'gal.playing': 'Jugando…', 'gal.win': '✨ ¡Nivel superado! Nivel ' };
+  function tg(k) {
+    var d = I18N[curLang];
+    return (d && d[k] != null) ? d[k] : (originals[k] != null ? originals[k] : (ES_GAL[k] || k));
+  }
+  var cv = document.getElementById('galaga');
+  var xBtn = document.getElementById('x-start');
+  if (cv && xBtn) {
+    var ctx = cv.getContext('2d');
+    var W = cv.width, H = cv.height;
+    var elXS = document.getElementById('x-score'), elXL = document.getElementById('x-lives'),
+        elXLev = document.getElementById('x-level'), elXB = document.getElementById('x-best'),
+        elXM = document.getElementById('x-msg');
+    var xbest = 0;
+    try { xbest = parseInt(localStorage.getItem('neongalaga-best') || '0', 10) || 0; } catch (e) {}
+    elXB.textContent = xbest;
+
+    var running = false, raf = null, lastTs = 0;
+    var ship, bullets, foes, foeBullets, foeDir, foeX, foeY, foeTimer, shootTimer, fireCd, invuln, score, lives, level, stars;
+    var keys = { left: false, right: false, fire: false };
+
+    function makeStars() {
+      stars = [];
+      for (var i = 0; i < 60; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, s: Math.random() * 1.7 + 0.4, v: Math.random() * 22 + 8 });
+    }
+    function makeFoes() {
+      foes = [];
+      var cols = 6, rows = 3, gw = 40, gh = 34, x0 = (W - cols * gw) / 2 + gw / 2, y0 = 46;
+      for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) {
+        foes.push({ x: x0 + c * gw, y: y0 + r * gh, row: r, alive: true });
+      }
+      foeDir = 1; foeX = 0; foeY = 0;
+    }
+    function reset(full) {
+      ship = { x: W / 2, y: H - 26, w: 30 };
+      bullets = []; foeBullets = []; fireCd = 0; invuln = 0;
+      if (full) { score = 0; lives = 3; level = 1; }
+      makeFoes(); makeStars();
+      syncHud();
+    }
+    function syncHud() {
+      elXS.textContent = score; elXL.textContent = lives; elXLev.textContent = level;
+    }
+    function shoot() {
+      if (fireCd > 0 || bullets.length >= 5) return;
+      bullets.push({ x: ship.x, y: ship.y - 16 });
+      fireCd = 210;
+    }
+    function drawShip() {
+      if (invuln > 0 && Math.floor(invuln / 90) % 2 === 0) return;
+      ctx.save();
+      ctx.shadowColor = '#17c3dc'; ctx.shadowBlur = 14;
+      ctx.fillStyle = '#17c3dc';
+      ctx.beginPath();
+      ctx.moveTo(ship.x, ship.y - 16);
+      ctx.lineTo(ship.x - 15, ship.y + 12);
+      ctx.lineTo(ship.x - 5, ship.y + 7);
+      ctx.lineTo(ship.x + 5, ship.y + 7);
+      ctx.lineTo(ship.x + 15, ship.y + 12);
+      ctx.closePath(); ctx.fill();
+      ctx.shadowBlur = 0;
+      ctx.fillStyle = '#ff5da2';
+      ctx.beginPath(); ctx.arc(ship.x, ship.y - 3, 3.6, 0, 7); ctx.fill();
+      ctx.restore();
+    }
+    function drawFoe(f) {
+      var colors = ['#ffd166', '#ff5da2', '#8b5cf6'];
+      var col = colors[f.row] || '#ff5da2';
+      ctx.save();
+      ctx.shadowColor = col; ctx.shadowBlur = 10;
+      ctx.fillStyle = col;
+      var x = f.x, y = f.y;
+      ctx.fillRect(x - 10, y - 5, 20, 10);            // cuerpo
+      ctx.fillRect(x - 13, y - 9, 5, 7);              // ala izq
+      ctx.fillRect(x + 8, y - 9, 5, 7);               // ala der
+      ctx.fillRect(x - 7, y + 5, 4, 5);               // pata izq
+      ctx.fillRect(x + 3, y + 5, 4, 5);               // pata der
+      ctx.shadowBlur = 0;
+      ctx.fillStyle = '#0a0a14';
+      ctx.fillRect(x - 5, y - 2, 3.4, 3.4);
+      ctx.fillRect(x + 1.6, y - 2, 3.4, 3.4);
+      ctx.restore();
+    }
+    function step(ts) {
+      if (!running) return;
+      var dt = Math.min(50, ts - lastTs || 16.7); lastTs = ts;
+      var f = dt / 16.7;
+
+      // nave
+      if (keys.left) ship.x -= 4.4 * f;
+      if (keys.right) ship.x += 4.4 * f;
+      ship.x = Math.max(18, Math.min(W - 18, ship.x));
+      if (keys.fire) shoot();
+      if (fireCd > 0) fireCd -= dt;
+      if (invuln > 0) invuln -= dt;
+
+      // balas propias
+      bullets = bullets.filter(function (b) { b.y -= 7.5 * f; return b.y > -10; });
+      // balas enemigas
+      foeTimer -= dt;
+      if (foeTimer <= 0) {
+        var alive = foes.filter(function (e) { return e.alive; });
+        if (alive.length) {
+          var s = alive[Math.floor(Math.random() * alive.length)];
+          foeBullets.push({ x: s.x, y: s.y + 10 });
+        }
+        foeTimer = Math.max(420, 1050 - level * 110);
+      }
+      foeBullets = foeBullets.filter(function (b) { b.y += 3.4 * f; return b.y < H + 10; });
+
+      // formación
+      foeX += foeDir * (0.55 + level * 0.14) * f;
+      var minX = W, maxX = 0;
+      foes.forEach(function (e) { if (e.alive) { minX = Math.min(minX, e.x + foeX); maxX = Math.max(maxX, e.x + foeX); } });
+      if (maxX > W - 16 || minX < 16) { foeDir *= -1; foeY += 15; }
+
+      // colisiones bala-enemigo
+      bullets.forEach(function (b) {
+        foes.forEach(function (e) {
+          if (!e.alive || b.dead) return;
+          var ex = e.x + foeX, ey = e.y + foeY;
+          if (Math.abs(b.x - ex) < 14 && Math.abs(b.y - ey) < 12) {
+            e.alive = false; b.dead = true;
+            score += e.row === 0 ? 25 : 10;
+          }
+        });
+      });
+      bullets = bullets.filter(function (b) { return !b.dead; });
+
+      // colisiones con la nave / aterrizaje
+      var landed = false;
+      foes.forEach(function (e) { if (e.alive && e.y + foeY > ship.y - 14) landed = true; });
+      var hit = landed;
+      if (!hit && invuln <= 0) {
+        foeBullets.forEach(function (b) {
+          if (Math.abs(b.x - ship.x) < 13 && Math.abs(b.y - ship.y) < 13) { hit = true; b.y = H + 99; }
+        });
+      }
+      if (hit) {
+        lives--;
+        syncHud();
+        if (lives <= 0) { gameOver(); return; }
+        foeBullets = []; bullets = []; invuln = 1600;
+        if (landed) { makeFoes(); }
+      }
+      syncHud();
+
+      // nivel superado
+      if (foes.every(function (e) { return !e.alive; })) {
+        level++;
+        elXM.textContent = tg('gal.win') + level;
+        makeFoes(); foeBullets = []; bullets = [];
+        syncHud();
+      }
+
+      // ===== dibujo =====
+      ctx.fillStyle = '#05050d';
+      ctx.fillRect(0, 0, W, H);
+      ctx.fillStyle = 'rgba(255,255,255,.75)';
+      stars.forEach(function (s) {
+        s.y += s.v * dt / 1000; if (s.y > H) { s.y = -2; s.x = Math.random() * W; }
+        ctx.fillRect(s.x, s.y, s.s, s.s);
+      });
+      foes.forEach(function (e) { if (e.alive) { var keep = { x: e.x + foeX, y: e.y + foeY, row: e.row }; drawFoe(keep); } });
+      ctx.fillStyle = '#aef3ff';
+      bullets.forEach(function (b) { ctx.fillRect(b.x - 1.6, b.y - 7, 3.2, 11); });
+      ctx.fillStyle = '#ffb3c9';
+      foeBullets.forEach(function (b) { ctx.fillRect(b.x - 1.6, b.y - 4, 3.2, 9); });
+      drawShip();
+
+      raf = requestAnimationFrame(step);
+    }
+    function gameOver() {
+      running = false;
+      if (raf) cancelAnimationFrame(raf);
+      if (score > xbest) {
+        xbest = score; elXB.textContent = xbest;
+        try { localStorage.setItem('neongalaga-best', String(xbest)); } catch (e) {}
+      }
+      elXM.textContent = tg('gal.over') + score;
+      xBtn.disabled = false;
+      xBtn.textContent = tg('gal.again');
+      drawShip();
+    }
+    xBtn.addEventListener('click', function () {
+      reset(true);
+      elXM.textContent = '';
+      running = true;
+      lastTs = 0;
+      xBtn.disabled = true;
+      xBtn.textContent = tg('gal.playing');
+      raf = requestAnimationFrame(step);
+    });
+
+    // teclado
+    document.addEventListener('keydown', function (ev) {
+      if (!running) return;
+      if (ev.key === 'ArrowLeft') { keys.left = true; ev.preventDefault(); }
+      else if (ev.key === 'ArrowRight') { keys.right = true; ev.preventDefault(); }
+      else if (ev.key === ' ') { keys.fire = true; ev.preventDefault(); }
+    });
+    document.addEventListener('keyup', function (ev) {
+      if (ev.key === 'ArrowLeft') keys.left = false;
+      else if (ev.key === 'ArrowRight') keys.right = false;
+      else if (ev.key === ' ') keys.fire = false;
+    });
+    // puntero: mover la nave siguiendo el dedo/ratón sobre el canvas
+    function pointerMove(ev) {
+      if (!running) return;
+      var r = cv.getBoundingClientRect();
+      var cx = (ev.touches ? ev.touches[0].clientX : ev.clientX);
+      ship.x = Math.max(18, Math.min(W - 18, (cx - r.left) * (W / r.width)));
+    }
+    cv.addEventListener('mousemove', pointerMove);
+    cv.addEventListener('touchmove', function (ev) { pointerMove(ev); ev.preventDefault(); }, { passive: false });
+    cv.addEventListener('touchstart', function (ev) { pointerMove(ev); keys.fire = true; }, { passive: true });
+    cv.addEventListener('touchend', function () { keys.fire = false; });
+    // botones táctiles
+    function hold(id, prop) {
+      var b = document.getElementById(id);
+      if (!b) return;
+      b.addEventListener('pointerdown', function (ev) { keys[prop] = true; ev.preventDefault(); });
+      ['pointerup', 'pointerleave', 'pointercancel'].forEach(function (t2) {
+        b.addEventListener(t2, function () { keys[prop] = false; });
+      });
+    }
+    hold('x-left', 'left'); hold('x-right', 'right'); hold('x-fire', 'fire');
+
+    // escena inicial en reposo
+    reset(true);
+    ctx.fillStyle = '#05050d'; ctx.fillRect(0, 0, W, H);
+    foes.forEach(function (e) { drawFoe(e); });
+    drawShip();
+  }
+
 })();
 
 /* ===== MATRIX RAIN ===== */

@@ -171,6 +171,7 @@
   <section class="seccion" id="juego">
     <p class="sec-kicker">&lt;juego&gt;</p>
     <h2 class="sec-title" data-i18n="game.title">Juego: Atrapa el Neón</h2>
+    <div class="games-grid">
     <div class="bio-box">
       <p data-i18n="game.sub">Toca los orbes de neón antes de que desaparezcan. Los dorados valen 25 puntos; los demás, 10. ¡Tienes 45 segundos!</p>
       <div class="game-hud">
@@ -181,6 +182,26 @@
       <div class="game-arena" id="game-arena"></div>
       <p class="game-msg" id="g-msg"></p>
       <button class="btn btn-ghost game-btn" id="g-start" type="button" data-i18n="game.start">▶ Jugar</button>
+    </div>
+    <div class="bio-box">
+      <h3 class="game2-title" data-i18n="gal.title">Juego: Invasión Neón</h3>
+      <p data-i18n="gal.sub">Pilota tu nave neón y derriba la flota invasora antes de que aterrice. Los dorados valen 25 puntos; los demás, 10. ¡Defiende la galaxia, Tec Girl!</p>
+      <div class="game-hud">
+        <span><span data-i18n="gal.score">Puntos</span>: <b id="x-score">0</b></span>
+        <span><span data-i18n="gal.lives">Vidas</span>: <b id="x-lives">3</b></span>
+        <span><span data-i18n="gal.level">Nivel</span>: <b id="x-level">1</b></span>
+        <span><span data-i18n="gal.best">Récord</span>: <b id="x-best">0</b></span>
+      </div>
+      <canvas id="galaga" width="360" height="430"></canvas>
+      <p class="game-msg" id="x-msg"></p>
+      <div class="gal-controls">
+        <button class="btn btn-ghost game-btn" id="x-left" type="button" aria-label="Izquierda">◀</button>
+        <button class="btn btn-ghost game-btn" id="x-start" type="button" data-i18n="gal.start">▶ Jugar</button>
+        <button class="btn btn-ghost game-btn" id="x-fire" type="button" data-i18n="gal.fire">¡Fuego!</button>
+        <button class="btn btn-ghost game-btn" id="x-right" type="button" aria-label="Derecha">▶</button>
+      </div>
+      <p class="gal-hint" data-i18n="gal.controls">En computadora: ← → para moverte y Espacio para disparar.</p>
+    </div>
     </div>
   </section>
 
