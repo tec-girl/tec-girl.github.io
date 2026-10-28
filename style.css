@@ -73,6 +73,7 @@ a{color:var(--turq)}
 .card::before{content:"";position:absolute;top:0;left:0;width:100%;height:.24rem;background:var(--grad)}
 .card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(139,92,246,.25)}
 .card-tag{color:var(--turq);font-size:.75rem;letter-spacing:.24em;margin-bottom:.5rem}
+.card-by{color:var(--turq);opacity:.85;font-size:.8rem;letter-spacing:.12em;margin:.3rem 0 .55rem}
 .card h3{font-family:var(--display);font-size:1.05rem;color:#fff;margin-bottom:.5rem;letter-spacing:.04em}
 .card p{color:var(--dim);font-size:.92rem}
 .card.dim{opacity:.55}
