@@ -26,7 +26,7 @@
       "th.title": "My Threads", "th.link": "See my presentation thread on Threads ↗", "th.follow": "Follow me on Threads ↗",
       "fo.title": "Forum — comment here",
       "hn.title": "Hacker News",
-      "hn.sub": "Recent headlines from The Hacker News, the cybersecurity channel — refreshed every morning.",
+      "hn.sub": "The Hacker News live, right on this page.",
       "hn.more": "Read on The Hacker News ↗",
       "nav.game": "Game",
       "game.title": "Game: Catch the Neon",
@@ -70,7 +70,7 @@
       "th.title": "Mon Threads", "th.link": "Voir mon fil de présentation sur Threads ↗", "th.follow": "Me suivre sur Threads ↗",
       "fo.title": "Forum — commente ici",
       "hn.title": "Actus Hacker",
-      "hn.sub": "Titres récents de The Hacker News, la chaîne cybersécurité — actualisés chaque matin.",
+      "hn.sub": "The Hacker News en direct, directement sur cette page.",
       "hn.more": "Lire sur The Hacker News ↗",
       "nav.game": "Jeu",
       "game.title": "Jeu : Attrape le Néon",
@@ -114,7 +114,7 @@
       "th.title": "Mein Threads", "th.link": "Meinen Vorstellungs-Thread auf Threads ansehen ↗", "th.follow": "Mir auf Threads folgen ↗",
       "fo.title": "Forum — kommentiere hier",
       "hn.title": "Hacker News",
-      "hn.sub": "Aktuelle Schlagzeilen von The Hacker News, dem Cybersecurity-Kanal — jeden Morgen aktualisiert.",
+      "hn.sub": "The Hacker News live, direkt auf dieser Seite.",
       "hn.more": "Auf The Hacker News lesen ↗",
       "nav.game": "Spiel",
       "game.title": "Spiel: Fang das Neon",
@@ -158,7 +158,7 @@
       "th.title": "Meu Threads", "th.link": "Ver meu fio de apresentação no Threads ↗", "th.follow": "Seguir-me no Threads ↗",
       "fo.title": "Fórum — comente aqui",
       "hn.title": "Notícias Hacker",
-      "hn.sub": "Manchetes recentes do The Hacker News, o canal de cibersegurança — atualizadas toda manhã.",
+      "hn.sub": "The Hacker News ao vivo, direto nesta página.",
       "hn.more": "Ler no The Hacker News ↗",
       "nav.game": "Jogo",
       "game.title": "Jogo: Pegue o Neon",
@@ -202,7 +202,7 @@
       "th.title": "我的 Threads", "th.link": "在 Threads 查看我的介绍帖 ↗", "th.follow": "在 Threads 关注我 ↗",
       "fo.title": "论坛 — 在这里评论",
       "hn.title": "黑客新闻",
-      "hn.sub": "来自网络安全频道 The Hacker News 的最新头条 — 每天早上更新。",
+      "hn.sub": "The Hacker News 实时资讯，直接在本页显示。",
       "hn.more": "在 The Hacker News 阅读 ↗",
       "nav.game": "游戏",
       "game.title": "游戏：抓住霓虹",
@@ -372,88 +372,4 @@
       }, 1000);
     });
   }
-})();
-
-/* ===== NOTICIAS HACKER (The Hacker News) ===== */
-(function () {
-  var lang = 'es';
-  try { lang = localStorage.getItem('tecgirl-lang') || 'es'; } catch (e) {}
-  var LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR', de: 'de-DE', pt: 'pt-BR', zh: 'zh-CN' };
-  var STR = {
-    es: { loading: 'Cargando noticias…', error: 'No se pudieron cargar las noticias en este momento.' },
-    en: { loading: 'Loading news…', error: 'News could not be loaded right now.' },
-    fr: { loading: 'Chargement des actus…', error: "Impossible de charger les actus pour le moment." },
-    de: { loading: 'News werden geladen…', error: 'Die News konnten gerade nicht geladen werden.' },
-    pt: { loading: 'Carregando notícias…', error: 'Não foi possível carregar as notícias agora.' },
-    zh: { loading: '正在加载新闻…', error: '目前无法加载新闻。' }
-  };
-  var S = STR[lang] || STR.es;
-  var ul = document.getElementById('hn-list');
-  if (!ul) return;
-  var loadingEl = ul.querySelector('[data-hn-loading]');
-  if (loadingEl) loadingEl.textContent = S.loading;
-
-  function render(items) {
-    ul.innerHTML = '';
-    (items || []).slice(0, 6).forEach(function (it) {
-      var li = document.createElement('li');
-      var a = document.createElement('a');
-      a.href = it.link;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.textContent = it.title || '';
-      li.appendChild(a);
-      var meta = document.createElement('span');
-      meta.className = 'hn-meta';
-      var date = '';
-      try { date = new Date(it.pubDate).toLocaleDateString(LOCALES[lang] || 'es-MX', { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) {}
-      meta.textContent = 'The Hacker News' + (date ? ' · ' + date : '');
-      li.appendChild(meta);
-      ul.appendChild(li);
-    });
-    if (!ul.children.length) throw new Error('empty');
-  }
-  function fail() { ul.innerHTML = '<li class="hn-msg">' + S.error + '</li>'; }
-  function fromXML(text) {
-    var doc = new DOMParser().parseFromString(text, 'text/xml');
-    var out = [];
-    doc.querySelectorAll('item').forEach(function (n) {
-      out.push({
-        title: (n.querySelector('title') || {}).textContent || '',
-        link: (n.querySelector('link') || {}).textContent || '',
-        pubDate: (n.querySelector('pubDate') || {}).textContent || ''
-      });
-    });
-    return out;
-  }
-
-  var FEED = 'https://feeds.feedburner.com/TheHackersNews';
-  var enc = encodeURIComponent(FEED);
-  var attempts = [
-    function () {
-      return fetch('assets/noticias-hacker.json', { cache: 'no-store' })
-        .then(function (r) { return r.json(); })
-        .then(function (d) { if (d && d.length) return d; throw new Error('local'); });
-    },
-    function () {
-      return fetch('https://feed2json.org/convert?url=' + enc)
-        .then(function (r) { return r.json(); })
-        .then(function (d) {
-          var items = ((d && d.items) || []).map(function (it) {
-            return { title: it.title || '', link: it.url || '', pubDate: it.date_published || '' };
-          });
-          if (items.length) return items;
-          throw new Error('feed2json');
-        });
-    },
-    function () {
-      return fetch('https://cors.eu.org/' + FEED)
-        .then(function (r) { return r.text(); })
-        .then(function (t) { var items = fromXML(t); if (items.length) return items; throw new Error('cors-eu'); });
-    }
-  ];
-  (function next(i) {
-    if (i >= attempts.length) { fail(); return; }
-    attempts[i]().then(render).catch(function () { next(i + 1); });
-  })(0);
 })();
