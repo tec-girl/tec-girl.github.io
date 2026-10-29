@@ -96,6 +96,7 @@ a{color:var(--turq)}
 .hn-meta{display:block;font-size:.74rem;letter-spacing:.06em;color:#b9a8dd;margin-top:.22rem;text-transform:uppercase}
 .hn-msg{color:#cbb8e8;font-style:italic}
 .hn-more{margin-top:.9rem}
+.hn-frame{width:100%;height:520px;border:0;background:#fff;display:block;margin-top:.6rem}
 
 /* ===== FORO ===== */
 .foro-loading{color:var(--dim)}
