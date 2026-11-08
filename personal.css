@@ -115,11 +115,11 @@ a{color:var(--turq)}
   .menu{gap:.9rem}
 }
 
-/* ===== Tarjetas agrupadas en móvil: 2 por fila, compactas ===== */
+/* ===== En móvil: 1 tarjeta por fila, a lo ancho (2 por fila apretaba el texto palabra por palabra) ===== */
 @media (max-width:680px){
-  .cards{grid-template-columns:1fr 1fr;gap:.8rem}
-  .card{padding:1rem}
-  .card h3{font-size:1.02rem;line-height:1.3}
-  .card p{font-size:.86rem;line-height:1.5}
-  .card .btn{padding:.5rem .8rem;font-size:.78rem}
+  .cards{grid-template-columns:1fr;gap:1rem}
+  .card{padding:1.4rem}
+  .card h3{font-size:1.05rem;line-height:1.35}
+  .card p{font-size:.92rem;line-height:1.6}
+  .card .btn{padding:.6rem 1.1rem;font-size:.78rem}
 }
